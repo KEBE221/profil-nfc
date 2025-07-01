@@ -1,60 +1,43 @@
-/* style.css */
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #004C5F, #F16521);
-    color: white;
-    text-align: center;
-    padding: 2em;
-}
-
-.container {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 2em;
-    border-radius: 15px;
-    max-width: 400px;
-    margin: auto;
-}
-
-.avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-    margin-bottom: 1em;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #005670, #f15a24);
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  padding: 1rem;
 }
 
 .logo {
-    width: 180px;
-    margin-bottom: 1em;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 120px;
 }
 
-h1 {
-    margin: 0.2em 0;
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border: 4px solid white;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: white;
-    color: #004C5F;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
+.btn-contact {
+  background: white;
+  color: #005670;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
-.btn:hover,
-.btn:focus {
-    background-color: #f16521;
-    color: white;
+.carousel-item img {
+  border-radius: 12px;
+  max-height: 200px;
+  object-fit: cover;
 }
 
-.info {
-    font-size: 0.85em;
-    margin-top: 1em;
-    opacity: 0.8;
+.description {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1rem;
 }
