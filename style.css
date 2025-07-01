@@ -1,36 +1,60 @@
+/* style.css */
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: url('assets/logo.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #004C5F, #F16521);
+    color: white;
+    text-align: center;
+    padding: 2em;
 }
+
 .container {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 30px;
-  border-radius: 15px;
-  max-width: 400px;
-  margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2em;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: auto;
 }
+
 .avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 3px solid white;
-  margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 1em;
 }
+
+.logo {
+    width: 180px;
+    margin-bottom: 1em;
+}
+
+h1 {
+    margin: 0.2em 0;
+}
+
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 20px;
-  background: #ffffff;
-  color: #000;
-  text-decoration: none;
-  border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: white;
+    color: #004C5F;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
-.btn:hover {
-  background: #ddd;
+
+.btn:hover,
+.btn:focus {
+    background-color: #f16521;
+    color: white;
+}
+
+.info {
+    font-size: 0.85em;
+    margin-top: 1em;
+    opacity: 0.8;
 }
